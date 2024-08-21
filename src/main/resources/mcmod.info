@@ -1,0 +1,20 @@
+[
+  {
+    "modid": "cc",
+    "name": "Crypt Crawler",
+    "description": "A mod adding a new dimension full of combat and unique combat encounter!",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "modpage",
+    "authorList": [
+      "UnseenDontRun",
+      "UnOriginal"
+    ],
+    "credits": "FG6 Build template for 1.12.2 made by The_Computerizer",
+    "logoFile": "modlogo.png",
+    "screenshots": [],
+    "dependencies": [
+      "mixinbooter"
+    ]
+  }
+]
