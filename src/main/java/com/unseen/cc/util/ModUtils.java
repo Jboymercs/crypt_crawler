@@ -194,6 +194,10 @@ public class ModUtils {
         return false;
     }
 
+    public static BlockPos posToChunk(BlockPos pos) {
+        return new BlockPos(pos.getX() / 16f, pos.getY(), pos.getZ() / 16f);
+    }
+
 
     public static void setEntityPosition(Entity entity, Vec3d vec) {
         entity.setPosition(vec.x, vec.y, vec.z);

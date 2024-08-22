@@ -1,6 +1,6 @@
 [
   {
-    "modid": "cc",
+    "modid": "cryptcrawler",
     "name": "Crypt Crawler",
     "description": "A mod adding a new dimension full of combat and unique combat encounter!",
     "version": "${version}",

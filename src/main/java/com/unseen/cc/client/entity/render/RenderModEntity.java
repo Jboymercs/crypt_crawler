@@ -18,6 +18,10 @@ import org.lwjgl.opengl.GL11;
 import javax.annotation.Nonnull;
 import java.util.Optional;
 
+/**
+ * Base Class for Rendering Entities
+ * @param <T>
+ */
 public class RenderModEntity<T extends EntityLiving> extends RenderLiving<T> {
     public String[] TEXTURES;
     private ResourceLocation DEATH_TEXTURES;
